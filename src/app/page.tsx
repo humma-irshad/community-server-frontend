@@ -1,8 +1,9 @@
-import styles from "./page.module.css";
+import Homee from "../components/home/index";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main>
+      <Homee />
     </main>
   );
 }

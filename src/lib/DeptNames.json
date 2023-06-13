@@ -2,35 +2,38 @@
   "results": [
     {
       "id": 1,
-      "name": "Computer Science and Engineeering"
+      "name": "CSE"
     },
     {
       "id": 2,
-      "name": "Civil Engineering"
+      "name": "CS"
     },
     {
       "id": 3,
-      "name": "Mechanical Engineering"
+      "name": "ME"
     },
     {
       "id": 4,
-      "name": "Electrical Engineering"
+      "name": "ECE"
     },
     {
       "id": 5,
-      "name": "Electronics and Communication Engineering"
+      "name": "Maths"
     },
     {
       "id": 6,
-      "name": "Mathematics Department"
+      "name": "English"
     },
     {
       "id": 7,
-      "name": "English Department"
+      "name": "Physics"
+    },{
+      "id": 8,
+      "name": "EE"
     },
     {
-      "id": 8,
-      "name": "Physics Department"
+      "id": 9,
+      "name": "Chemistry"
     }
   ]
 }

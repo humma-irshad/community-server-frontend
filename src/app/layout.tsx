@@ -1,4 +1,4 @@
-"use client"
+"use client";
 // import "./globals.css";
 import { Inter } from "next/font/google";
 
@@ -8,7 +8,7 @@ import Sidebar from "@/components/Sidebar/Sidebar";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
+const metadata = {
   title: "Student Community App",
   description:
     "A student community app for resource sharing, connecting with alumni, and discussions",

@@ -1,7 +1,6 @@
 "use client";
 
 import {
-  AppBar,
   Box,
   Drawer,
   CssBaseline,
@@ -10,7 +9,6 @@ import {
   ListItem,
   ListItemButton,
   ListItemText,
-  Typography,
   Divider,
 } from "@mui/material";
 import Link from "next/link";
@@ -19,16 +17,8 @@ export default function Sidebar() {
   return (
     <Box>
       <CssBaseline />
-      <AppBar>
-        <Toolbar>
-          <Typography variant="h6" component="div">
-            Community App
-          </Typography>
-        </Toolbar>
-      </AppBar>
       <Drawer>
         <Toolbar />
-        <Divider />
         <List>
           {["Home", "Notes", "Contribute"].map((text, index) => (
             <ListItem key={text} disablePadding>
