@@ -1,0 +1,36 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "name": "Computer Science and Engineeering"
+    },
+    {
+      "id": 2,
+      "name": "Civil Engineering"
+    },
+    {
+      "id": 3,
+      "name": "Mechanical Engineering"
+    },
+    {
+      "id": 4,
+      "name": "Electrical Engineering"
+    },
+    {
+      "id": 5,
+      "name": "Electronics and Communication Engineering"
+    },
+    {
+      "id": 6,
+      "name": "Mathematics Department"
+    },
+    {
+      "id": 7,
+      "name": "English Department"
+    },
+    {
+      "id": 8,
+      "name": "Physics Department"
+    }
+  ]
+}
