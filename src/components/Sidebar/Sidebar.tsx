@@ -17,7 +17,15 @@ export default function Sidebar() {
   return (
     <Box>
       <CssBaseline />
-      <Drawer>
+      <Drawer
+        sx={{
+          "& .MuiDrawer-paper": {
+            width: 200,
+            borderBottomRightRadius: 30,
+            borderTopRightRadius: 30,
+          },
+        }}
+      >
         <Toolbar />
         <List>
           {["Home", "Notes", "Contribute"].map((text, index) => (

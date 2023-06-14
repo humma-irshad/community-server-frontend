@@ -1,4 +1,4 @@
-
+"use client";
 import { createTheme } from "@mui/material";
 
 // module augmentation - TS concept
@@ -65,11 +65,10 @@ export const theme = createTheme({
         },
       },
     },
-  //   MuiTypography: {
-  //     defaultProps: {
-  //       variant: "subtitle1"
-      
-      
-  //   }
+    //   MuiTypography: {
+    //     defaultProps: {
+    //       variant: "subtitle1"
+
+    //   }
   },
 });

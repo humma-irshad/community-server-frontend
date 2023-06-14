@@ -1,9 +1,9 @@
-import Homee from "../components/home/index";
+import Home from "../components/home/index";
 
-export default function Home() {
+export default function Main() {
   return (
     <main>
-      <Homee />
+      <Home />
     </main>
   );
 }
