@@ -5,6 +5,8 @@ import { Inter } from "next/font/google";
 import { ThemeProvider } from "@emotion/react";
 import { theme } from "@/theme/theme";
 import Sidebar from "@/components/Sidebar/Sidebar";
+import Footer from "@/components/footer/index";
+import { Box, Divider } from "@mui/material";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,6 +27,7 @@ export default function RootLayout({
         <body className={inter.className}>
           <Sidebar />
           {children}
+          <Footer />
         </body>
       </ThemeProvider>
     </html>
