@@ -1,23 +1,15 @@
 "use client";
-import departmnets from "../../lib/DeptNames.json";
-import "./index.module.css";
-import { Typography, Button } from "@mui/material";
-import { Box, Grid } from "@mui/material";
-import MiddleSection from "./middleSection";
-import TopSection from "./topSection";
+
+import { StyledTitle } from "./index.style";
+import MiddleSection from "./MiddleSection";
+import TopSection from "./TopSection";
 
 export default function Home() {
-  const departmentNames = departmnets.results.map(
-    (department) => department.name
-  );
-
   return (
-    <main>
-      <Typography marginLeft={20} align={"center"} variant="h2" gutterBottom>
-        Community App
-      </Typography>
+    <>
+      <StyledTitle variant="h2">Community App</StyledTitle>
       <TopSection />
       <MiddleSection />
-    </main>
+    </>
   );
 }

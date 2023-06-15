@@ -1,15 +1,14 @@
-import {
-  Box,
-  Button,
-  ButtonProps,
-  Grid,
-  Typography,
-  styled,
-} from "@mui/material";
+import { Box, Button, Divider, Grid, Typography, styled } from "@mui/material";
 import { LinkProps } from "next/link";
 
+export const MidImageStyle: React.CSSProperties = {
+  width: 330,
+  height: 330,
+};
+
 export const StyledTitle = styled(Typography)(({ theme }) => ({
-  fontWeight: 650,
+  fontWeight: 550,
+  textAlign: "center",
   [theme.breakpoints.down("sm")]: {
     fontSize: "1.6rem",
     marginLeft: "16rem",
@@ -29,6 +28,7 @@ export const StyledTitle = styled(Typography)(({ theme }) => ({
 export const StyledBox = styled(Box)(({ theme }) => ({
   [theme.breakpoints.up("lg")]: {
     marginLeft: "20rem",
+    marginTop: "6rem",
     alignItems: "center",
   },
   [theme.breakpoints.down("lg")]: {
@@ -37,11 +37,16 @@ export const StyledBox = styled(Box)(({ theme }) => ({
   },
 }));
 
+export const StyledDivider = styled(Divider)(() => ({
+  width: "55rem",
+  marginTop: "3.7rem",
+}));
+
 export const DeptBox = styled(Box)(({ theme }) => ({
-  marginTop: "8rem",
-  marginLeft: "20rem",
+  marginTop: "6rem",
+  marginLeft: "21rem",
   [theme.breakpoints.up("md")]: {
-    width: "67%",
+    width: "68%",
   },
   [theme.breakpoints.down("md")]: {
     marginLeft: "22rem",
@@ -54,12 +59,12 @@ export const DeptBox = styled(Box)(({ theme }) => ({
 }));
 
 export const DeptGrid = styled(Grid)(({ theme }) => ({
-  marginBottom: "2.6rem",
+  marginBottom: "2rem",
   [theme.breakpoints.up("md")]: {
-    width: "80",
+    width: "70",
   },
   [theme.breakpoints.down("md")]: {
-    width: "40",
+    width: "38",
   },
 }));
 
@@ -75,7 +80,7 @@ export const StyledDeptButton = styled(Button)<LinkProps>(() => ({
     backgroundColor: "#000",
   },
   padding: "30px",
-  marginTop: "4rem",
+  marginTop: "3.5rem",
   border: "15px solid ",
   width: "12.5rem",
   borderRadius: "2rem",

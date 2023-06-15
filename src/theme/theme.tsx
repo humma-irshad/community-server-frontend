@@ -45,13 +45,15 @@ export const theme = createTheme({
       },
       styleOverrides: {
         root: {
-          width: 240,
+          width: 200,
           flexShrink: 0,
           "& .MuiDrawer-paper": {
             marginBottom: 34,
             backgroundColor: "#000",
             color: "#fff",
             width: 240,
+            borderTopRightRadius: 30,
+            borderBottomRightRadius: 30,
             boxSizing: "border-box",
           },
         },

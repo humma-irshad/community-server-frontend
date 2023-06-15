@@ -58,7 +58,7 @@ export default function Sidebar() {
         </Drawer>
         <Box
           component="main"
-          sx={{ flexGrow: 1, bgcolor: "background.default", p: 0.6 }}
+          sx={{ flexGrow: 1, bgcolor: "background.default", }}
         >
           <Toolbar />
         </Box>

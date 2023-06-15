@@ -1,12 +1,17 @@
 "use client";
-import { Typography, Button } from "@mui/material";
-import { Box, Grid } from "@mui/material";
-import img1 from "../../assests/img1.jpeg";
-import img2 from "../../assests/img2.jpeg";
+
+import { Box, Grid, Typography } from "@mui/material";
 import Image from "next/image";
 
-import Link from "next/link";
 import departmnets from "../../lib/DeptNames.json";
+import MidImageOne from "@/assests/boy.jpeg";
+import MidImageTwo from "@/assests/grad.jpeg";
+import {
+  DeptBox,
+  DeptGrid,
+  MidImageStyle,
+  StyledDeptButton,
+} from "./index.style";
 
 export default function MiddleSection() {
   const departmentNames = departmnets.results.map(
@@ -14,52 +19,33 @@ export default function MiddleSection() {
   );
 
   return (
-    <main>
-      <Box //box for dept wise explore
-        sx={{
-          marginTop: "5rem",
-          marginLeft: "18rem",
-          width: "50rem",
-        }}
-      >
-        <Typography ml={"17rem"} paragraph={true} variant="h4" fontWeight={800}>
+    <>
+      <DeptBox>
+        <Typography
+          align="center"
+          paragraph={true}
+          variant="h4"
+          fontWeight={800}
+        >
           Explore Department-Wise
         </Typography>
 
-        <Grid width={"65rem"} container>
+        <DeptGrid container>
           {departmentNames.map((name, index) => (
-            <Grid ml={"5rem"} item key={index}>
-              <Box
-                sx={{
-                  transition: "transform 0.6s",
-                  "&:hover": {
-                    transform: "translateY(-20px)",
-                    borderColor: "white",
-                  },
-                  textAlign: "center",
-                  p: "2rem",
-                  marginTop: "2rem",
-                  border: "15px solid ",
-                  width: "10rem",
-                  borderRadius: "2rem",
-                  backgroundColor: "black",
-                }}
+            <Grid ml={"4rem"} item key={index}>
+              <StyledDeptButton
+                href={`/department/${encodeURIComponent(name.toLowerCase())}`}
                 key={index}
               >
-                <Link
-                  style={{ color: "white", textDecoration: "none" }}
-                  href={`/department/${encodeURIComponent(name.toLowerCase())}`}
-                >
-                  {name}
-                </Link>
-              </Box>
+                {name}
+              </StyledDeptButton>
             </Grid>
           ))}
-        </Grid>
-      </Box>
+        </DeptGrid>
+      </DeptBox>
       <Box
         sx={{
-          marginLeft: "23rem",
+          marginLeft: "20.4rem",
           marginTop: "10rem",
           alignItems: "left",
           textAlign: "left",
@@ -67,7 +53,11 @@ export default function MiddleSection() {
           flexDirection: "row",
         }}
       >
-        <Image style={{ borderRadius: "2rem" }} src={img1} alt="image" />
+        <Image
+          style={MidImageStyle}
+          src={MidImageOne}
+          alt="A boy reading a book"
+        />
         <Box
           sx={{
             marginTop: "1rem",
@@ -123,8 +113,12 @@ export default function MiddleSection() {
             rooms. PRE BOOK- LIMITED SEATS AVAILABLE.
           </Typography>
         </Box>
-        <Image style={{ borderRadius: "2rem" }} src={img2} alt="image" />
+        <Image
+          style={MidImageStyle}
+          src={MidImageTwo}
+          alt="personality development"
+        />
       </Box>
-    </main>
+    </>
   );
 }
