@@ -7,8 +7,9 @@ export const MidImageStyle: React.CSSProperties = {
 };
 
 export const StyledTitle = styled(Typography)(({ theme }) => ({
-  fontWeight: 550,
+  marginTop: "-2rem",
   textAlign: "center",
+  fontFamily: "Roboto,Helvetica,Aria,sans-serif",
   [theme.breakpoints.down("sm")]: {
     fontSize: "1.6rem",
     marginLeft: "16rem",
@@ -18,7 +19,7 @@ export const StyledTitle = styled(Typography)(({ theme }) => ({
     marginLeft: "16rem",
   },
   [theme.breakpoints.up("md")]: {
-    fontSize: "2.6  rem",
+    fontSize: "2.6rem",
   },
   [theme.breakpoints.up("lg")]: {
     fontSize: "3.3rem",
