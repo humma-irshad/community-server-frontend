@@ -67,10 +67,5 @@ export const theme = createTheme({
         },
       },
     },
-    //   MuiTypography: {
-    //     defaultProps: {
-    //       variant: "subtitle1"
-
-    //   }
   },
 });

@@ -1,7 +1,9 @@
 import { Box, Button, Divider, Grid, Typography, styled } from "@mui/material";
 import { LinkProps } from "next/link";
 
-export const MidImageStyle: React.CSSProperties = {
+export const ImageStyle: React.CSSProperties = {
+  display: "flex",
+  flexDirection: "row",
   width: 330,
   height: 330,
 };
@@ -39,8 +41,8 @@ export const StyledBox = styled(Box)(({ theme }) => ({
 }));
 
 export const StyledDivider = styled(Divider)(() => ({
+  border: "0.5px #857777 inset",
   width: "55rem",
-  marginTop: "3.7rem",
 }));
 
 export const DeptBox = styled(Box)(({ theme }) => ({

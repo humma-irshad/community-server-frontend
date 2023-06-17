@@ -3,15 +3,11 @@
 import { Box, Grid, Typography } from "@mui/material";
 import Image from "next/image";
 
+import { DeptBox, DeptGrid, ImageStyle, StyledDeptButton } from "./index.style";
+
 import departmnets from "../../lib/DeptNames.json";
 import MidImageOne from "@/assests/boy.jpeg";
 import MidImageTwo from "@/assests/grad.jpeg";
-import {
-  DeptBox,
-  DeptGrid,
-  MidImageStyle,
-  StyledDeptButton,
-} from "./index.style";
 
 export default function MiddleSection() {
   const departmentNames = departmnets.results.map(
@@ -45,7 +41,7 @@ export default function MiddleSection() {
       </DeptBox>
       <Box
         sx={{
-          marginLeft: "20.4rem",
+          marginLeft: "20rem",
           marginTop: "10rem",
           alignItems: "left",
           textAlign: "left",
@@ -54,9 +50,10 @@ export default function MiddleSection() {
         }}
       >
         <Image
-          style={MidImageStyle}
           src={MidImageOne}
+          style={ImageStyle}
           alt="A boy reading a book"
+          loading="lazy"
         />
         <Box
           sx={{
@@ -114,8 +111,9 @@ export default function MiddleSection() {
           </Typography>
         </Box>
         <Image
-          style={MidImageStyle}
           src={MidImageTwo}
+          style={ImageStyle}
+          loading="lazy"
           alt="personality development"
         />
       </Box>

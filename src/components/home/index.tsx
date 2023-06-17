@@ -1,8 +1,8 @@
 "use client";
 
 import { StyledTitle } from "./index.style";
-import MiddleSection from "./middleSection";
-import TopSection from "./topSection";
+import TopSection from "./TopSection";
+import MiddleSection from "./MiddleSection";
 
 export default function Home() {
   return (
