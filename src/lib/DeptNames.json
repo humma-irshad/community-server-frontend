@@ -2,49 +2,61 @@
   "results": [
     {
       "id": 1,
-      "name": "CSE"
+      "name": "CSE",
+      "SemCount":8
     },
     {
       "id": 2,
-      "name": "CS"
+      "name": "CS",
+      "SemCount":8
     },
     {
       "id": 3,
-      "name": "ME"
+      "name": "ME",
+      "SemCount":8
     },
     {
       "id": 4,
-      "name": "ECE"
+      "name": "ECE",
+      "SemCount":8
     },
     {
       "id": 5,
-      "name": "Maths"
+      "name": "MATHS",
+      "SemCount":6
     },
     {
       "id": 6,
-      "name": "English"
+      "name": "ENGLISH",
+      "SemCount":6
     },
     {
       "id": 7,
-      "name": "Physics"
+      "name": "PHYSICS",
+      "SemCount":6
     },{
       "id": 8,
-      "name": "EE"
+      "name": "EE",
+      "SemCount":8
     },
     {
       "id": 9,
-      "name": "Chemistry"
+      "name": "CHEMISTRY",
+      "SemCount":6
     },{
       "id": 10,
-      "name": "FT"
+      "name": "FT",
+      "SemCount":8
     },
     {
       "id": 11,
-      "name": "MBA"
+      "name": "MBA",
+      "SemCount":10
     },
     {
       "id": 12,
-      "name": "Arabic"
+      "name": "ARABIC",
+      "SemCount":6
     }
   ]
 }
