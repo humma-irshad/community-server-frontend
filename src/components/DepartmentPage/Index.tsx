@@ -1,15 +1,13 @@
 "use client";
 
-
-import departmnets from "@/lib/DeptNames.json"
+import departmnets from "@/lib/DeptNames.json";
 import { useState, useEffect } from "react";
-import Button from '@mui/material/Button';
-import ButtonGroup from '@mui/material/ButtonGroup';
-import { Box, } from "@mui/material";
+import Button from "@mui/material/Button";
+import ButtonGroup from "@mui/material/ButtonGroup";
+import { Box } from "@mui/material";
 import { useRouter } from "next/navigation";
 
-
-const IndexPage = () => {
+const DepartmentPage = () => {
   const router = useRouter();
   const SemesterCount = departmnets.results.map(
     (department) => department.SemCount
@@ -63,4 +61,4 @@ const IndexPage = () => {
   );
 };
 
-export default IndexPage;
+export default DepartmentPage;
