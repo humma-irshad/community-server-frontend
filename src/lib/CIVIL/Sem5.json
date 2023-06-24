@@ -1,0 +1,29 @@
+
+{
+    "results": [
+    {
+      "id": 1,
+      "name": "DESIGN OF CONCRETE STRUCTURE-I"
+    },
+    {
+      "id": 2,
+      "name": "GEOTECHNICAL ENGINEERING-I"
+    },
+    {
+      "id": 3,
+      "name": "WATER SUPPLY ENGINEERING"
+    },
+    {
+      "id": 4,
+      "name": "QUANTITY SURVEY AND COST ESTIMATION"
+     
+    },
+    {
+        "id": 5,
+        "name": "STRUCTURAL ANALYSIS-III"
+    }
+    
+    
+    
+  ]
+}

@@ -1,0 +1,32 @@
+
+{
+    "results": [
+    {
+      "id": 1,
+      "name": "DATA STRUCTURES"
+    },
+    {
+      "id": 2,
+      "name": "COMPUTER ARCHITECTURE AND ORGANISATION"
+    },
+    {
+      "id": 3,
+      "name": "DATA COMMUNICATION"
+    },
+    {
+      "id": 4,
+      "name": "INTERNET AND WEB DESIGNING"
+     
+    },
+    {
+        "id": 5,
+        "name": "LINUX INTERNALS"
+    },
+    {
+        "id": 6,
+        "name": "PROBABILITY AND STATISTICS"
+    }
+    
+    
+  ]
+}

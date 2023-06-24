@@ -1,0 +1,29 @@
+
+{
+    "results": [
+    {
+      "id": 1,
+      "name": "DESIGN OF CONCRETE STRUCTURE-II"
+    },
+    {
+      "id": 2,
+      "name": "IRRIGATION AND HYDRAULIC STRUCTURES"
+    },
+    {
+      "id": 3,
+      "name": "STRUCTURAL DYNAMICS"
+    },
+    {
+      "id": 4,
+      "name": "WASTE WATER ENGINEERING"
+     
+    },
+    {
+        "id": 5,
+        "name": "TRAFFIC ENGINEERING AND ROAD FACILITIES"
+    }
+   
+    
+    
+  ]
+}

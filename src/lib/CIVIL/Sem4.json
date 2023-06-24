@@ -1,0 +1,28 @@
+
+{
+    "results": [
+    {
+      "id": 1,
+      "name": "STRUCTURAL ANALYSIS-II"
+    },
+    {
+      "id": 2,
+      "name": "ADVANCED SURVEYING MEASUREMENTS"
+    },
+    {
+      "id": 3,
+      "name": "FLUID MECHANICS-II"
+    },
+    {
+      "id": 4,
+      "name": "CONCRETE TECHNOLOGY"
+     
+    },
+    {
+        "id": 5,
+        "name": "BUILDING DRAWING"
+    }
+    
+    
+  ]
+}

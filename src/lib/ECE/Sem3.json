@@ -1,0 +1,33 @@
+{
+    "results": [
+    {
+      "id": 1,
+      "name": "ELECTRONIC DEVICES"
+    },
+    {
+      "id": 2,
+      "name": "DIGITAL ELECTRONICS AND LOGIC DESIGN"
+    },
+    {
+      "id": 3,
+      "name": "SIGNALS AND SYSTEMS"
+    },
+    {
+      "id": 4,
+      "name": "NETWORK THEORY"
+     
+    },
+    {
+        "id": 5,
+        "name": "APPLIED MATHEMATICS FOR ENGINEERS"
+    },
+    {
+        "id": 6,
+        "name": "ELECTROMAGNETIC WAVES"
+       
+      }
+      
+      
+    
+  ]
+}

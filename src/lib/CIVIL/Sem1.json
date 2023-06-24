@@ -1,0 +1,32 @@
+
+{
+    "results": [
+    {
+      "id": 1,
+      "name": "PHYSICS"
+    },
+    {
+      "id": 2,
+      "name": "CHEMISTRY"
+    },
+    {
+      "id": 3,
+      "name": "MATHEMATICS-I"
+    },
+    {
+      "id": 4,
+      "name": "ENVIROMENTAL SCIENCE"
+     
+    },
+    {
+        "id": 5,
+        "name": "ENGINEERING GRAPHICS AND DESIGN"
+    },
+    {
+        "id": 6,
+        "name": "COMMUNICATION SKILLS"
+    }
+    
+    
+  ]
+}

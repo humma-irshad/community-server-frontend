@@ -1,0 +1,28 @@
+
+{
+    "results": [
+    {
+      "id": 1,
+      "name": "DESIGN AND ANALYSIS OF ALGORITHMS"
+    },
+    {
+      "id": 2,
+      "name": "OPERATING SYSTEM"
+    },
+    {
+      "id": 3,
+      "name": "DATABASE MANAGEMENT SYSTEM"
+    },
+    {
+      "id": 4,
+      "name": "COMPUTER NETWORKS"
+     
+    },
+    {
+        "id": 5,
+        "name": "NUMERICAL METHODS"
+    }
+    
+    
+  ]
+}
