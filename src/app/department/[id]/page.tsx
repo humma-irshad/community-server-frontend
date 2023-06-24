@@ -1,13 +1,10 @@
 "use client";
 
-
-import departmnets from "@/lib/DeptNames.json"
 import { useState, useEffect } from "react";
-import Button from '@mui/material/Button';
-import ButtonGroup from '@mui/material/ButtonGroup';
-import { Box, Typography } from "@mui/material";
+import { Box, Button, ButtonGroup } from "@mui/material";
 import { useRouter } from "next/navigation";
 
+import departmnets from "@/lib/DeptNames.json";
 
 const IndexPage = () => {
   const router = useRouter();
@@ -19,28 +16,24 @@ const IndexPage = () => {
     (department) => department.name
   );
 
-  const [currentUrl, setCurrentUrl] = useState('');
+  const [currentUrl, setCurrentUrl] = useState("");
 
   const reDirect = async () => {
-    router.push("/")
-  }
-
+    router.push("/");
+  };
 
   useEffect(() => {
     const pathname = window.location.pathname;
-    const urlText = pathname.substring(pathname.lastIndexOf('/') + 1);
+    const urlText = pathname.substring(pathname.lastIndexOf("/") + 1);
     setCurrentUrl(urlText);
   }, [currentUrl]);
 
   const index = departmentName.indexOf(currentUrl.toUpperCase());
-  const numberofButtons = SemesterCount[index]
+  const numberofButtons = SemesterCount[index];
   const buttons = [];
   for (let i = 1; i <= numberofButtons; i++) {
     buttons.push(
-      <Button
-        key={`${i}`}
-        onClick={reDirect}
-      >
+      <Button key={`${i}`} onClick={reDirect}>
         {` Sem ${i}`}
       </Button>
     );
@@ -51,14 +44,12 @@ const IndexPage = () => {
         ml: 32,
       }}
     >
-
       <ButtonGroup
         orientation="vertical"
         aria-label="vertical outlined button group"
       >
         {buttons}
       </ButtonGroup>
-
     </Box>
   );
 };

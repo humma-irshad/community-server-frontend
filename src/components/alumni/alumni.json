@@ -1,0 +1,62 @@
+[
+  {
+    "id": 12,
+    "name": "Gavin Garcia",
+    "title": "Co-founder of Electric-Go",
+    "graduationYear": "10/1/2066"
+  },
+  {
+    "id": 47,
+    "name": "Glen Howell",
+    "title": "CFO of Electric-Go",
+    "graduationYear": "5/20/2085"
+  },
+  {
+    "id": 2,
+    "name": "Berni Mossce",
+    "title": "CTO of Electric-Go",
+    "graduationYear": "6/18/2087"
+  },
+  {
+    "id": 4,
+    "name": "Matti Newmane",
+    "title": "Intern at Electric-Go",
+    "graduationYear": "1/28/2075"
+  },
+  {
+    "id": 43,
+    "name": "Ella Conner",
+    "title": "CEO of Electric-Go",
+    "graduationYear": "12/13/2052"
+  },
+  {
+    "id": 23,
+    "name": "Edwin Nichols",
+    "title": "Director of Electric-Go",
+    "graduationYear": "6/13/2078"
+  },
+  {
+    "id": 46,
+    "name": "Mabel Fowlerle",
+    "title": "Chairman of Electric-Go",
+    "graduationYear": "5/12/2054"
+  },
+  {
+    "id": 88,
+    "name": "Lilli Holtan",
+    "title": "Manager at Electric-Go",
+    "graduationYear": "4/2/2046"
+  },
+  {
+    "id": 16,
+    "name": "Beula Turnerh",
+    "title": "Sr. Software Developer at Electric-Go",
+    "graduationYear": "6/26/2058"
+  },
+  {
+    "id": 84,
+    "name": "Andre Stone",
+    "title": "Dev-Ops Engineer at Electric-Go",
+    "graduationYear": "4/20/2097"
+  }
+]
