@@ -1,10 +1,13 @@
 "use client";
 
+
+import departmnets from "@/lib/DeptNames.json"
 import { useState, useEffect } from "react";
-import { Box, Button, ButtonGroup } from "@mui/material";
+import Button from '@mui/material/Button';
+import ButtonGroup from '@mui/material/ButtonGroup';
+import { Box, } from "@mui/material";
 import { useRouter } from "next/navigation";
 
-import departmnets from "../../lib/DeptNames.json";
 
 const IndexPage = () => {
   const router = useRouter();
