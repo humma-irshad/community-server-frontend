@@ -1,8 +1,14 @@
 "use client";
+
 import { createTheme } from "@mui/material";
 
 // module augmentation - TS concept
 declare module "@mui/material/styles" {
+  interface Theme {
+    devs: {
+      main: string;
+    };
+  }
   interface ThemeOptions {
     devs: {
       main: React.CSSProperties["color"];
@@ -11,15 +17,15 @@ declare module "@mui/material/styles" {
 }
 
 export const theme = createTheme({
+  devs: {
+    main: "#f5dce0",
+  },
   palette: {
     primary: {
       main: "#000",
       light: "#474242",
       contrastText: "#fff",
     },
-  },
-  devs: {
-    main: "#f5dce0",
   },
   components: {
     MuiAppBar: {
