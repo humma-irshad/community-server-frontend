@@ -34,7 +34,7 @@ export default function Sidebar() {
                   href={
                     text.toLowerCase() === "home"
                       ? "/"
-                      : text.toLowerCase().replace(" ", "-")
+                      : `/${text.toLowerCase().replace(" ", "-")}`
                   }
                 >
                   <ListItemText primary={text} />
@@ -48,7 +48,7 @@ export default function Sidebar() {
               <ListItem key={text} disablePadding>
                 <ListItemButton
                   LinkComponent={Link}
-                  href={text.toLowerCase().replace(" ", "-")}
+                  href={`/${text.toLowerCase().replace(" ", "-")}`}
                 >
                   <ListItemText primary={text} />
                 </ListItemButton>
@@ -58,7 +58,7 @@ export default function Sidebar() {
         </Drawer>
         <Box
           component="main"
-          sx={{ flexGrow: 1, bgcolor: "background.default", }}
+          sx={{ flexGrow: 1, bgcolor: "background.default" }}
         >
           <Toolbar />
         </Box>
