@@ -27,7 +27,7 @@ export default function Sidebar() {
           <Toolbar />
           <Divider />
           <List>
-            {["Home", "Alumni", "Discussion Forum"].map((text, index) => (
+            {["Home", "Alumni", "Contribute"].map((text, index) => (
               <ListItem key={text} disablePadding>
                 <ListItemButton
                   LinkComponent={Link}
@@ -44,16 +44,18 @@ export default function Sidebar() {
           </List>
           <Divider />
           <List>
-            {["About Us", "Developers", "Privacy Policy"].map((text, index) => (
-              <ListItem key={text} disablePadding>
-                <ListItemButton
-                  LinkComponent={Link}
-                  href={`/${text.toLowerCase().replace(" ", "-")}`}
-                >
-                  <ListItemText primary={text} />
-                </ListItemButton>
-              </ListItem>
-            ))}
+            {["About Us", "Developers", "Discussion Forum"].map(
+              (text, index) => (
+                <ListItem key={text} disablePadding>
+                  <ListItemButton
+                    LinkComponent={Link}
+                    href={`/${text.toLowerCase().replace(" ", "-")}`}
+                  >
+                    <ListItemText primary={text} />
+                  </ListItemButton>
+                </ListItem>
+              )
+            )}
           </List>
         </Drawer>
         <Box

@@ -5,7 +5,7 @@ import Image from "next/image";
 
 import { ImageStyle, StyledBox, StyledDivider } from "./index.style";
 
-import TopImage from "@/assests/study.jpeg";
+import TopImage from "@/assests/HomeImage.svg";
 
 export default function TopSection() {
   return (
@@ -28,9 +28,6 @@ export default function TopSection() {
           loading="lazy"
         />
       </Box>
-      <StyledBox>
-        <StyledDivider />
-      </StyledBox>
     </>
   );
 }
