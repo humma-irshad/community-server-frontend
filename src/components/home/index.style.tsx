@@ -4,12 +4,12 @@ import { LinkProps } from "next/link";
 export const ImageStyle: React.CSSProperties = {
   display: "flex",
   flexDirection: "row",
-  width: 330,
+  width: 530,
   height: 330,
 };
 
 export const StyledTitle = styled(Typography)(({ theme }) => ({
-  marginTop: "-2rem",
+  marginTop: "-4rem",
   textAlign: "center",
   fontFamily: "Roboto,Helvetica,Aria,sans-serif",
   [theme.breakpoints.down("sm")]: {
@@ -29,6 +29,18 @@ export const StyledTitle = styled(Typography)(({ theme }) => ({
 }));
 
 export const StyledBox = styled(Box)(({ theme }) => ({
+  "&::before": {
+    zIndex: "-1",
+    content: '""',
+    height: "100%",
+    position: "absolute",
+    top: "-25%",
+    left: 0,
+    right: 0,
+    background: `linear-gradient(to right, transparent,#1F6E8C)`,
+    transform: "skewY(-3deg)",
+    transformOrigin: "top left",
+  },
   [theme.breakpoints.up("lg")]: {
     marginLeft: "20rem",
     marginTop: "6rem",

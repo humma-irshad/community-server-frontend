@@ -1,6 +1,19 @@
 import { Box, styled } from "@mui/material";
 
 export const FooterBox = styled(Box)(({ theme }) => ({
+  "&::before": {
+    zIndex: "-1",
+    content: '""',
+    height: "60vh",
+    position: "absolute",
+    marginTop: "1rem",
+    left: 0,
+    right: 0,
+    background: `linear-gradient(to left, transparent,#EAB2A0)`,
+    transform: "skewY(2deg)",
+    transformOrigin: "top left",
+    borderRadius: "3rem",
+  },
   marginBottom: "2rem",
   [theme.breakpoints.up("md")]: {
     marginLeft: "20rem",
