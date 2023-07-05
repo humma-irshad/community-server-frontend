@@ -2,28 +2,24 @@
     "results": [
       {
         "id": 1,
-        "name": "MATHS"
+        "name": "Structural Analysis-II"
       },
       {
         "id": 2,
-        "name": "PHYSICS"
+        "name": "Advanced Surveying Measurements"
       },
       {
         "id": 3,
-        "name": "CHEMISTRY"
+        "name": "Fluid Mechanics-II"
       },
       {
         "id": 4,
-        "name": "EVS"
+        "name": "Concrete Technology "
        
       },
       {
         "id": 5,
-        "name": "ENGINEERING DRAWING"
-      },
-      {
-        "id": 6,
-        "name": "Communication Skills "
+        "name": "Building Drawing "
       }
       
     ]

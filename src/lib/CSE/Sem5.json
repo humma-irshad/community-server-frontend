@@ -2,28 +2,24 @@
     "results": [
       {
         "id": 1,
-        "name": "MATHS"
+        "name": "Design and Analysis of Algorithms "
       },
       {
         "id": 2,
-        "name": "PHYSICS"
+        "name": "Operating System"
       },
       {
         "id": 3,
-        "name": "CHEMISTRY"
+        "name": "Database Management System "
       },
       {
         "id": 4,
-        "name": "EVS"
+        "name": "Computer Networks "
        
       },
       {
         "id": 5,
-        "name": "ENGINEERING DRAWING"
-      },
-      {
-        "id": 6,
-        "name": "Communication Skills "
+        "name": "Numerical Methods "
       }
       
     ]
