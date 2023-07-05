@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import {
   Typography,
@@ -12,11 +12,11 @@ import {
   ListItemButton,
   ListItemText,
   Divider,
-} from "@mui/material";
-import { ThemeProvider } from "@emotion/react";
-import Link from "next/link";
+} from '@mui/material';
+import {ThemeProvider} from '@emotion/react';
+import Link from 'next/link';
 
-import { theme } from "@/theme/theme";
+import {theme} from '@/theme/theme';
 
 export default function Sidebar() {
   return (
@@ -27,14 +27,12 @@ export default function Sidebar() {
           <Toolbar />
           <Divider />
           <List>
-            {["Home", "Alumni", "Contribute"].map((text, index) => (
+            {['Home', 'Alumni', 'Contribute'].map((text, index) => (
               <ListItem key={text} disablePadding>
                 <ListItemButton
                   LinkComponent={Link}
                   href={
-                    text.toLowerCase() === "home"
-                      ? "/"
-                      : `/${text.toLowerCase().replace(" ", "-")}`
+                    text.toLowerCase() === 'home' ? '/' : `/${text.toLowerCase().replace(' ', '-')}`
                   }
                 >
                   <ListItemText primary={text} />
@@ -44,24 +42,19 @@ export default function Sidebar() {
           </List>
           <Divider />
           <List>
-            {["About Us", "Developers", "Discussion Forum"].map(
-              (text, index) => (
-                <ListItem key={text} disablePadding>
-                  <ListItemButton
-                    LinkComponent={Link}
-                    href={`/${text.toLowerCase().replace(" ", "-")}`}
-                  >
-                    <ListItemText primary={text} />
-                  </ListItemButton>
-                </ListItem>
-              )
-            )}
+            {['About Us', 'Developers', 'Discussion Forum'].map((text, index) => (
+              <ListItem key={text} disablePadding>
+                <ListItemButton
+                  LinkComponent={Link}
+                  href={`/${text.toLowerCase().replace(' ', '-')}`}
+                >
+                  <ListItemText primary={text} />
+                </ListItemButton>
+              </ListItem>
+            ))}
           </List>
         </Drawer>
-        <Box
-          component="main"
-          sx={{ flexGrow: 1, bgcolor: "background.default" }}
-        >
+        <Box component='main' sx={{flexGrow: 1, bgcolor: 'background.default'}}>
           <Toolbar />
         </Box>
       </Box>
