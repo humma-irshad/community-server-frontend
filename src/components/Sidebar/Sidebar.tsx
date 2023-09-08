@@ -1,8 +1,6 @@
 'use client';
 
 import {
-  Typography,
-  AppBar,
   Box,
   Drawer,
   CssBaseline,
@@ -27,7 +25,7 @@ export default function Sidebar() {
           <Toolbar />
           <Divider />
           <List>
-            {['Home', 'Alumni', 'Contribute'].map((text, index) => (
+            {['Home', 'Alumni', 'Contribute', 'Internships'].map((text, index) => (
               <ListItem key={text} disablePadding>
                 <ListItemButton
                   LinkComponent={Link}
@@ -42,7 +40,7 @@ export default function Sidebar() {
           </List>
           <Divider />
           <List>
-            {['About Us', 'Developers', 'Discussion Forum'].map((text, index) => (
+            {['Discussion Forum', 'Developers', 'About Us'].map((text, index) => (
               <ListItem key={text} disablePadding>
                 <ListItemButton
                   LinkComponent={Link}

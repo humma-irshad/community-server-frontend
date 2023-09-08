@@ -14,8 +14,8 @@ import {StyledTitleOne} from './Alumni.style';
 const TopSectionAlumni = () => {
   const getImageStyle = () => {
     return {
-      height: '35rem',
-      width: '100%',
+      height: '30rem',
+      width: '90%',
       borderRadius: '3rem',
     };
   };

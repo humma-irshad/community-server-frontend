@@ -1,16 +1,29 @@
 'use client';
 
+import {useEffect, useState} from 'react';
 import {Box, Grid, Typography} from '@mui/material';
 import Image from 'next/image';
 
 import {DeptBox, DeptGrid, ImageStyle, StyledDeptButton} from './index.style';
-
-import departmnets from '../../lib/DeptNames.json';
 import MidImageOne from '@/assests/boy.jpeg';
 import MidImageTwo from '@/assests/grad.jpeg';
 
 export default function MiddleSection() {
-  const departmentNames = departmnets.results.map((department) => department.name);
+  interface IDeptNames {
+    id?: number;
+    name?: string;
+  }
+
+  const [deptNames, setDeptNames] = useState<IDeptNames[]>([]);
+
+  useEffect(() => {
+    const fetcData = async () => {
+      await fetch('http://localhost:3000/deptnames')
+        .then((res) => res.json())
+        .then((data) => setDeptNames(data.results));
+    };
+    fetcData();
+  }, []);
 
   return (
     <>
@@ -18,15 +31,13 @@ export default function MiddleSection() {
         <Typography align='center' paragraph={true} variant='h4' fontWeight={800}>
           Explore Department-Wise
         </Typography>
-
         <DeptGrid container>
-          {departmentNames.map((name, index) => (
+          {deptNames?.map((dept: IDeptNames, index) => (
             <Grid ml={'4rem'} item key={index}>
               <StyledDeptButton
-                href={`/department/${encodeURIComponent(name.toLowerCase())}`}
-                key={index}
+                href={`/department/${encodeURIComponent(dept.name!.toLowerCase())}`}
               >
-                {name}
+                {dept.name}
               </StyledDeptButton>
             </Grid>
           ))}

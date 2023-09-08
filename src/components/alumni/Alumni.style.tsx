@@ -29,8 +29,7 @@ export const AlumniPagination = styled(Pagination)(() => ({
 
 export const NewsBox = styled(Box)(({theme}) => ({
   [theme.breakpoints.up('lg')]: {
-    marginLeft: '5rem',
-    marginTop: '2rem',
+    margin: "auto",
     alignItems: 'center',
     borderStyle: 'solid',
     borderRadius: '10px',
