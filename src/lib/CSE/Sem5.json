@@ -1,28 +1,27 @@
-
 {
     "results": [
-    {
-      "id": 1,
-      "name": "DESIGN AND ANALYSIS OF ALGORITHMS"
-    },
-    {
-      "id": 2,
-      "name": "OPERATING SYSTEM"
-    },
-    {
-      "id": 3,
-      "name": "DATABASE MANAGEMENT SYSTEM"
-    },
-    {
-      "id": 4,
-      "name": "COMPUTER NETWORKS"
-     
-    },
-    {
+      {
+        "id": 1,
+        "name": "Design and Analysis of Algorithms "
+      },
+      {
+        "id": 2,
+        "name": "Operating System"
+      },
+      {
+        "id": 3,
+        "name": "Database Management System "
+      },
+      {
+        "id": 4,
+        "name": "Computer Networks "
+       
+      },
+      {
         "id": 5,
-        "name": "NUMERICAL METHODS"
-    }
-    
-    
-  ]
-}
+        "name": "Numerical Methods "
+      }
+      
+    ]
+  }
+  

@@ -1,13 +1,16 @@
 {
     "results": [
-    {
-      "id": 1,
-      "name": "COMPUTER GRAPHICS"
-    },
-    {
-      "id": 2,
-      "name": "NETWORK SECURITY"
-    }
-
-]
-}
+      {
+        "id": 1,
+        "name": "Compiler Design "
+      },
+      {
+        "id": 2,
+        "name": "Network Security "
+      }
+      
+      
+      
+    ]
+  }
+  

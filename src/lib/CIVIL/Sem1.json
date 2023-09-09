@@ -1,32 +1,31 @@
-
 {
     "results": [
-    {
-      "id": 1,
-      "name": "PHYSICS"
-    },
-    {
-      "id": 2,
-      "name": "CHEMISTRY"
-    },
-    {
-      "id": 3,
-      "name": "MATHEMATICS-I"
-    },
-    {
-      "id": 4,
-      "name": "ENVIROMENTAL SCIENCE"
-     
-    },
-    {
+      {
+        "id": 1,
+        "name": "MATHS"
+      },
+      {
+        "id": 2,
+        "name": "PHYSICS"
+      },
+      {
+        "id": 3,
+        "name": "CHEMISTRY"
+      },
+      {
+        "id": 4,
+        "name": "EVS"
+       
+      },
+      {
         "id": 5,
-        "name": "ENGINEERING GRAPHICS AND DESIGN"
-    },
-    {
-        "id": 6,
-        "name": "COMMUNICATION SKILLS"
-    }
-    
-    
-  ]
-}
+        "name": "ENGINEERING DRAWING"
+      },
+      {
+        "id": 5,
+        "name": "Communication Skills"
+      }
+      
+    ]
+  }
+  

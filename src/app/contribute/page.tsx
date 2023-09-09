@@ -1,5 +1,5 @@
-"use client";
-import ContributionPage from "@/components/Contribute";
+'use client';
+import ContributionPage from '@/components/Contribute';
 export default function Contribute() {
   return (
     <>
