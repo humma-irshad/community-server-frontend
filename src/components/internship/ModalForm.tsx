@@ -11,19 +11,26 @@ import React, {useState} from 'react';
 
 interface IProps {
   onClose: () => void;
-  onAddInternship: (role: string, description: string, phone: string, email: string) => void;
+  onAddInternship: (
+    role: string,
+    description: string,
+    stipend: string,
+    phone: string,
+    email: string,
+  ) => void;
 }
 
 export const ModalForm = ({onClose, onAddInternship}: IProps) => {
   const [role, setRole] = useState('');
   const [description, setDescription] = useState('');
+  const [stipend, setStipend] = useState('');
   const [phone, setPhone] = useState('');
   const [email, setEmail] = useState('');
 
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault();
 
-    onAddInternship(role, description, phone, email);
+    onAddInternship(role, description, stipend, phone, email);
 
     onClose();
   };
@@ -75,6 +82,19 @@ export const ModalForm = ({onClose, onAddInternship}: IProps) => {
           </FormControl>
         </Grid>
         <FormControl fullWidth>
+          <InputLabel variant='standard' htmlFor='stipend'>
+            Stipend
+          </InputLabel>
+          <Input
+            type='number'
+            name='stipend'
+            aria-describedby='my-stipend-text'
+            value={stipend}
+            onChange={(event) => setStipend(event.target.value)}
+          />
+          <FormHelperText id='my-phone-text'>Stipend you're willing to pay</FormHelperText>
+        </FormControl>
+        <FormControl fullWidth>
           <InputLabel variant='standard' htmlFor='phone'>
             Phone number
           </InputLabel>
@@ -107,7 +127,7 @@ export const ModalForm = ({onClose, onAddInternship}: IProps) => {
             <Button type='submit' variant='contained' sx={{color: '#fff'}} children='Submit' />
           </Grid>
           <Grid item>
-            <Button variant='contained' sx={{color: '#fff'}} children='Cancel' onClick={onClose} />
+            <Button variant='outlined' sx={{color: '#blue'}} children='Cancel' onClick={onClose} />
           </Grid>
         </Grid>
       </Grid>

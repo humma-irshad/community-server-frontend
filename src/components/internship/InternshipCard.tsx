@@ -1,8 +1,9 @@
-import {Box, Button, Card, CardActions, CardContent, Typography} from '@mui/material';
+import {Button, Card, CardActions, CardContent, Typography} from '@mui/material';
 
 interface ICard {
   role?: string;
   description?: string;
+  stipend?: string;
   phone?: string;
   email?: string;
 }
@@ -25,12 +26,15 @@ export const InternshipCard = (props: ICard) => {
         <Typography sx={{mb: 1}} color='darkgrey'>
           {props.email}
         </Typography>
+        <Typography sx={{mb: 1}} color='darkgrey'>
+          Stipend: {props.stipend ? `₹${props.stipend}` : 'No stipend'}
+        </Typography>
       </CardContent>
-      <CardActions>
+      {/* <CardActions>
         <Button size='small' sx={{color: '#FF0000'}}>
           Delete
         </Button>
-      </CardActions>
+      </CardActions> */}
     </Card>
   );
 };

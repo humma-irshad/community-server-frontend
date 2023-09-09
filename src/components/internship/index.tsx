@@ -20,6 +20,7 @@ export default function Internship() {
     id?: string;
     role?: string;
     description?: string;
+    stipend?: string;
     phone?: string;
     email?: string;
   }
@@ -30,9 +31,15 @@ export default function Internship() {
 
   const [card, setCard] = useState<ICard[]>([]);
 
-  const addInternship = (role: string, description: string, phone: string, email: string) => {
+  const addInternship = (
+    role: string,
+    description: string,
+    stipend: string,
+    phone: string,
+    email: string,
+  ) => {
     setCard((prevCard: ICard[]) => {
-      return [...prevCard, {id: Math.random().toString(), role, description, phone, email}];
+      return [...prevCard, {id: Math.random().toString(), role, description, stipend, phone, email}];
     });
   };
 
@@ -55,6 +62,7 @@ export default function Internship() {
           key={item.id}
           role={item.role}
           description={item.description}
+          stipend={item.stipend}
           phone={item.phone}
           email={item.email}
         />
