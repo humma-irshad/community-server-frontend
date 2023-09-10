@@ -2,26 +2,25 @@
     "results": [
       {
         "id": 1,
-        "name": "MATHEMATICS-I"
+        "name": "MASS TRANSFER OPERATIONS "
       },
       {
         "id": 2,
-        "name": "PHYSICS"
+        "name": "BASIC ELECTRICAL & ELECTRONICS"
       },
       {
         "id": 3,
-        "name": "CHEMISTRY"
+        "name": "DAIRY TECHNOLOGY-I"
       },
       {
         "id": 4,
-        "name": "BASIC ELECTRICAL ENGINEERING"
+        "name": "FOOD PROCESS ENGINEERING"
        
       },
       {
         "id": 5,
-        "name": "ENGINEERING MECHANICS"
+        "name": "FOOD BIOTECHNOLOGY"
       }
-      
       
     ]
   }

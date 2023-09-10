@@ -2,26 +2,25 @@
     "results": [
       {
         "id": 1,
-        "name": "MATHEMATICS-I"
+        "name": "GENERAL ENGLISH-I"
       },
       {
         "id": 2,
-        "name": "PHYSICS"
+        "name": "HISTORY OF ENGLISH LITERATURE"
       },
       {
         "id": 3,
-        "name": "CHEMISTRY"
+        "name": "ENGLISH POETRY-II"
       },
       {
         "id": 4,
-        "name": "BASIC ELECTRICAL ENGINEERING"
+        "name": "NON FICTIONAL PROSe"
        
       },
       {
         "id": 5,
-        "name": "ENGINEERING MECHANICS"
+        "name": "AUTOBIOGRAPHY"
       }
-      
       
     ]
   }

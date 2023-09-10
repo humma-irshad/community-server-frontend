@@ -1,0 +1,39 @@
+{
+    "results": [
+      {
+        "id": 1,
+        "name": "APPLIED PHYSICS"
+      },
+      {
+        "id": 2,
+        "name": "APPLIED CHEMISTRY"
+      },
+      {
+        "id": 3,
+        "name": "APPLIED MATHEMATICS"
+      },
+      {
+        "id": 4,
+        "name": "ENIVIROMENTAL SCIENCE"
+       
+      },
+      {
+        "id": 5,
+        "name": "INTRODUCTION TO MICROBIOLOGY & BIOCHEMISTRY"
+      },
+      {
+        "id": 5,
+        "name": "INTRODUCTION TO COMPUTER PROGRAMMING"
+      },
+      {
+        "id": 6,
+        "name": "COMMUNICATIVE ENGLISH"
+      },
+      {
+        "id": 7,
+        "name": "ENGINEERING GRAPHICS & DESIGN"
+      }
+      
+    ]
+  }
+  

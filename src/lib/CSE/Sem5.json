@@ -2,24 +2,24 @@
     "results": [
       {
         "id": 1,
-        "name": "Design and Analysis of Algorithms "
+        "name": "DESIGN AND ANALYSIS OF ALGORITHMS "
       },
       {
         "id": 2,
-        "name": "Operating System"
+        "name": "OPERATING SYSTEM"
       },
       {
         "id": 3,
-        "name": "Database Management System "
+        "name": "DATABASE MANAGEMENT SYSTEM "
       },
       {
         "id": 4,
-        "name": "Computer Networks "
+        "name": "COMPUTER NETWORKS "
        
       },
       {
         "id": 5,
-        "name": "Numerical Methods "
+        "name": "NUMERICAL METHODS "
       }
       
     ]

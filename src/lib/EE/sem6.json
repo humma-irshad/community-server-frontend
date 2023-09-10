@@ -2,21 +2,22 @@
     "results": [
       {
         "id": 1,
-        "name": "POWER ELECTRONICS"
+        "name": "POWER SYSTEMS-II"
       },
       {
         "id": 2,
-        "name": "DIGITAL SIGNAL PROCESSING"
+        "name": "POWER ELECTRONICS"
       },
       {
         "id": 3,
-        "name": "TRANSMISSION LINES, ANTENNA AND WAVE PROPAGATION"
+        "name": "ELECTRICAL MACHINE DESIGN "
       },
       {
         "id": 4,
-        "name": "VLSI DESIGN"
+        "name": "COMMUNICATION SYSTEMS "
        
       }
+     
       
       
     ]

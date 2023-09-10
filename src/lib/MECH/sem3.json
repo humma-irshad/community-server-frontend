@@ -1,0 +1,34 @@
+{
+    "results": [
+      {
+        "id": 1,
+        "name": "MACHINING PROCESSES"
+      },
+      {
+        "id": 2,
+        "name": "MECHANICS OF SOLIDS"
+      },
+      {
+        "id": 3,
+        "name": "BASIC THERMODYNAMICS"
+      },
+      {
+        "id": 4,
+        "name": "MACHINE DRAWING & SOLID MODELLING "
+       
+      },
+      {
+        "id": 5,
+        "name": "FLUID MECHANICS"
+       
+      },
+      {
+        "id": 5,
+        "name": "APPLIED MATHEMATICS FOR ENGINEERS"
+       
+      }
+      
+      
+    ]
+  }
+  

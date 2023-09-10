@@ -2,28 +2,28 @@
     "results": [
       {
         "id": 1,
-        "name": "MATHEMATICS"
+        "name": "ENGLISH POETRY-II"
       },
       {
         "id": 2,
-        "name": "PHYSICS"
+        "name": "ENGLISH DRAMA-II"
       },
       {
         "id": 3,
-        "name": "CHEMISTRY"
+        "name": "ENGLISH FICTION-II"
       },
       {
         "id": 4,
-        "name": "ENVIROMENTAL SCIENCE"
+        "name": "INDIAN WRITING IN TRANSLATION"
        
       },
       {
         "id": 5,
-        "name": "ENGINEERING DRAWING"
+        "name": "INTRODUCTION TO WAR LITERATURE"
       },
       {
         "id": 6,
-        "name": "COMMUNICATION SKILLS "
+        "name": "COMPUTER FUNDAMENTALS"
       }
       
     ]

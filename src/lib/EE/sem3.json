@@ -2,24 +2,25 @@
     "results": [
       {
         "id": 1,
-        "name": "MATHEMATICS-I"
+        "name": "ELECTROMAGNETIC FIELD THEORY"
       },
       {
         "id": 2,
-        "name": "PHYSICS"
+        "name": "NETWORK ANALYSIS"
       },
       {
         "id": 3,
-        "name": "CHEMISTRY"
+        "name": "ANALOG ELECTRONICS"
       },
       {
         "id": 4,
-        "name": "BASIC ELECTRICAL ENGINEERING"
+        "name": "SIGNALS AND SYSTEMS "
        
       },
       {
         "id": 5,
-        "name": "ENGINEERING MECHANICS"
+        "name": "APPLIED MATHEMATICS FOR ENGINEERS "
+       
       }
       
       

@@ -1,0 +1,31 @@
+{
+    "results": [
+      {
+        "id": 1,
+        "name": "ENGINEERING MATHEMATICS-I"
+      },
+      {
+        "id": 2,
+        "name": "FUNDAMENTALS OF FOOD PROCESSING PRESERVATION "
+      },
+      {
+        "id": 3,
+        "name": "THERMODYNAMICS "
+      },
+      {
+        "id": 4,
+        "name": "FOOD CHEMISTRY"
+       
+      },
+      {
+        "id": 5,
+        "name": "FOOD & NUTRITION"
+      },
+      {
+        "id":6,
+        "name": "FOOD MICROBIOLOGY"
+      }
+      
+    ]
+  }
+  

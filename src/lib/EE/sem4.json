@@ -2,24 +2,25 @@
     "results": [
       {
         "id": 1,
-        "name": "MATHEMATICS-I"
+        "name": "ELECTRICAL MACHINES-I"
       },
       {
         "id": 2,
-        "name": "PHYSICS"
+        "name": "PROBABILITY AND STATISTICS"
       },
       {
         "id": 3,
-        "name": "CHEMISTRY"
+        "name": "DIGITAL ELECTRONICS"
       },
       {
         "id": 4,
-        "name": "BASIC ELECTRICAL ENGINEERING"
+        "name": "CONTROL SYSTEMS"
        
       },
       {
         "id": 5,
-        "name": "ENGINEERING MECHANICS"
+        "name": "ELECTRICAL ENGINEERING MATERIALS"
+       
       }
       
       

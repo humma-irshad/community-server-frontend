@@ -2,26 +2,25 @@
     "results": [
       {
         "id": 1,
-        "name": "MATHEMATICS-I"
+        "name": "GENERAL ENGLISH-II"
       },
       {
         "id": 2,
-        "name": "PHYSICS"
+        "name": "ENGLISH DRAMA-I"
       },
       {
         "id": 3,
-        "name": "CHEMISTRY"
+        "name": "ENGLISH FICTION-I"
       },
       {
         "id": 4,
-        "name": "BASIC ELECTRICAL ENGINEERING"
+        "name": "POPULAR LITERATURE"
        
       },
       {
         "id": 5,
-        "name": "ENGINEERING MECHANICS"
+        "name": "TRAVEL WRITING"
       }
-      
       
     ]
   }

@@ -2,29 +2,29 @@
     "results": [
       {
         "id": 1,
-        "name": "Data Structures "
+        "name": "DATA STRUCTURES "
       },
       {
         "id": 2,
-        "name": "Computer Architecture and Organization "
+        "name": "COMPUTER ARCHITECTURE AND ORGANIZATION "
       },
       {
         "id": 3,
-        "name": "Data Communication "
+        "name": "DATA COMMUNICATION "
       },
       {
         "id": 4,
-        "name": "Internet and Web Designing"
+        "name": "INTERNET AND WEB DESIGNING"
        
       },
       {
         "id": 5,
-        "name": "Linux Internals "
+        "name": "LINUX INTERNALS "
       },
 
       {
         "id": 6,
-        "name": "Probability & Statistics "
+        "name": "PROBABILITY & STATISTICS "
       }
       
     ]

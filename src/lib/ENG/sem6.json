@@ -2,28 +2,28 @@
     "results": [
       {
         "id": 1,
-        "name": "MATHEMATICS"
+        "name": "AFRICAN LITERATURE "
       },
       {
         "id": 2,
-        "name": "PHYSICS"
+        "name": "AMERICAN LITERATURE"
       },
       {
         "id": 3,
-        "name": "CHEMISTRY"
+        "name": "DALIT LITERATURE "
       },
       {
         "id": 4,
-        "name": "ENVIROMENTAL SCIENCE"
+        "name": "RESEARCH METHODOLOGY"
        
       },
       {
         "id": 5,
-        "name": "ENGINEERING DRAWING"
+        "name": "CREATIVE WRITING"
       },
       {
         "id": 6,
-        "name": "COMMUNICATION SKILLS "
+        "name": "TECHNICAL WRITING"
       }
       
     ]
