@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export const JobImage = styled(Image)(() => ({
   alignItems: 'right',
-  marginLeft: '45rem',
+  marginLeft: '40rem',
   width: '80%',
   height: '25rem',
   borderRadius: '3rem',
@@ -43,5 +43,14 @@ export const StyledBox = styled(Box)(({theme}) => ({
     background: `linear-gradient(to right, transparent,#9F73AB)`,
     transform: 'skewY(-5deg)',
     transformOrigin: 'top left',
+  },
+}));
+
+export const AddFile = styled(Button)(() => ({
+  marginLeft: '20rem',
+  padding: '11px',
+  backgroundColor: '#9F73AB',
+  '&:hover': {
+    backgroundColor: '#9351A6',
   },
 }));

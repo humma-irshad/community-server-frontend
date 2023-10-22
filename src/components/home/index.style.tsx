@@ -4,7 +4,7 @@ import {LinkProps} from 'next/link';
 export const ImageStyle: React.CSSProperties = {
   display: 'flex',
   flexDirection: 'row',
-  width: 530,
+  width: 370,
   height: 330,
 };
 
@@ -59,7 +59,7 @@ export const StyledDivider = styled(Divider)(() => ({
 
 export const DeptBox = styled(Box)(({theme}) => ({
   marginTop: '6rem',
-  marginLeft: '21rem',
+  marginLeft: '20rem',
   [theme.breakpoints.up('md')]: {
     width: '68%',
   },

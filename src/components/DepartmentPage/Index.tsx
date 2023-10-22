@@ -16,7 +16,7 @@ const DepartmentPage = () => {
   const [currentUrl, setCurrentUrl] = useState('');
 
   const reDirect = (number: number) => {
-    router.push(`/department/${currentUrl}/semester${number}`);
+    router.push(`/${currentUrl}/${number}`);
   };
 
   useEffect(() => {
@@ -38,7 +38,7 @@ const DepartmentPage = () => {
           reDirect(number);
         }}
       >
-        {` sem ${i}`}
+        {` semester ${i}`}
       </Button>,
     );
   }

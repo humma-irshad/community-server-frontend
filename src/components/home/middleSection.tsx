@@ -34,9 +34,7 @@ export default function MiddleSection() {
         <DeptGrid container>
           {deptNames?.map((dept: IDeptNames, index) => (
             <Grid ml={'4rem'} item key={index}>
-              <StyledDeptButton
-                href={`/department/${encodeURIComponent(dept.name!.toLowerCase())}`}
-              >
+              <StyledDeptButton href={`/${encodeURIComponent(dept.name!.toLowerCase())}`}>
                 {dept.name}
               </StyledDeptButton>
             </Grid>
