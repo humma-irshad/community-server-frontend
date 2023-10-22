@@ -2,24 +2,24 @@
     "results": [
       {
         "id": 1,
-        "name": "DESIGN AND ANALYSIS OF ALGORITHMS "
+        "name": "GENERAL ENGLISH-I"
       },
       {
         "id": 2,
-        "name": "OPERATING SYSTEM"
+        "name": "HISTORY OF ENGLISH LITERATURE"
       },
       {
         "id": 3,
-        "name": "DATABASE MANAGEMENT SYSTEM "
+        "name": "ENGLISH POETRY-II"
       },
       {
         "id": 4,
-        "name": "COMPUTER NETWORKS "
+        "name": "NON FICTIONAL PROSe"
        
       },
       {
         "id": 5,
-        "name": "NUMERICAL METHODS "
+        "name": "AUTOBIOGRAPHY"
       }
       
     ]

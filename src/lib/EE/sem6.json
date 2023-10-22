@@ -2,21 +2,22 @@
     "results": [
       {
         "id": 1,
-        "name": "Engineering Mechanics"
+        "name": "POWER SYSTEMS-II"
       },
       {
         "id": 2,
-        "name": "Mathematics-II"
+        "name": "POWER ELECTRONICS"
       },
       {
         "id": 3,
-        "name": "Programming for Problem Solving"
+        "name": "ELECTRICAL MACHINE DESIGN "
       },
       {
         "id": 4,
-        "name": "Basic Electrical Engineering "
+        "name": "COMMUNICATION SYSTEMS "
        
       }
+     
       
       
     ]

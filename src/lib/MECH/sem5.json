@@ -1,0 +1,33 @@
+{
+    "results": [
+      {
+        "id": 1,
+        "name": "HEAT AND MASS TRANSFER"
+      },
+      {
+        "id": 2,
+        "name": "DESIGN OF MACHINE ELEMENTS"
+      },
+      {
+        "id": 3,
+        "name": "MANUFACTURING PROCESSES "
+      },
+      {
+        "id": 4,
+        "name": "MEASUREMENT & INSTRUMENTATION "
+       
+      },
+      {
+        "id": 5,
+        "name": "PROBABILITY AND STATISTICS"
+       
+      },
+      {
+        "id": 6,
+        "name": "MICROCONTROLLERS"
+       
+      }
+      
+    ]
+  }
+  

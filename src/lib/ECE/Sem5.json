@@ -1,0 +1,28 @@
+{
+    "results": [
+      {
+        "id": 1,
+        "name": "ANALOG CIRCUITS-II "
+      },
+      {
+        "id": 2,
+        "name": "DIGITAL COMMUNICATION "
+      },
+      {
+        "id": 3,
+        "name": "TRANSMISSION LINES, ANTENNA AND WAVE PROPAGATION"
+      },
+      {
+        "id": 4,
+        "name": "ELECTRICAL MACHINES"
+       
+      },
+      {
+        "id": 5,
+        "name": "NUMERICAL METHODS IN ENGINEERING"
+      }
+      
+      
+    ]
+  }
+  

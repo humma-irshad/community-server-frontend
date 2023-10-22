@@ -2,29 +2,26 @@
     "results": [
       {
         "id": 1,
-        "name": "MATHEMATICS-I"
+        "name": "MATHEMATICS-II"
       },
       {
         "id": 2,
-        "name": "PHYSICS"
+        "name": "PROGRAMMING FOR PROBLEM SOLVING"
       },
       {
         "id": 3,
-        "name": "CHEMISTRY"
+        "name": "ENVIRONMENTAL SCIENCE"
       },
       {
         "id": 4,
-        "name": "ENIVIROMENTAL SCIENCE"
+        "name": "ENGINEERING GRAPHICSAND DESIGN"
        
-      },
-      {
-        "id": 5,
-        "name": "ENGINEERING DRAWING"
       },
       {
         "id": 5,
         "name": "COMMUNICATION SKILLS"
       }
+      
       
     ]
   }

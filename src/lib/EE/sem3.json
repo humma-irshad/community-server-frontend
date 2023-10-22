@@ -1,0 +1,29 @@
+{
+    "results": [
+      {
+        "id": 1,
+        "name": "ELECTROMAGNETIC FIELD THEORY"
+      },
+      {
+        "id": 2,
+        "name": "NETWORK ANALYSIS"
+      },
+      {
+        "id": 3,
+        "name": "ANALOG ELECTRONICS"
+      },
+      {
+        "id": 4,
+        "name": "SIGNALS AND SYSTEMS "
+       
+      },
+      {
+        "id": 5,
+        "name": "APPLIED MATHEMATICS FOR ENGINEERS "
+       
+      }
+      
+      
+    ]
+  }
+  

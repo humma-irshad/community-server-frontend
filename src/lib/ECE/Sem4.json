@@ -1,0 +1,33 @@
+{
+    "results": [
+    {
+      "id": 1,
+      "name": "ANALOG CIRCUIT-I"
+    },
+    {
+      "id": 2,
+      "name": "ANALOG COMMUNICATION"
+    },
+    {
+      "id": 3,
+      "name": "ELECTROMAGNETIC WAVES"
+    },
+    {
+      "id": 4,
+      "name": "CONTROL SYSTEMS"
+     
+    },
+    {
+        "id": 5,
+        "name": "PROBABILITY AND STATISTICS"
+    },
+    {
+        "id": 6,
+        "name": "MICROPROCESSORS AND MICROCONTROLLERS"
+       
+      }
+      
+      
+    
+  ]
+}
