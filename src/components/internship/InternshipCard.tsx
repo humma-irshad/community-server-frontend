@@ -4,8 +4,9 @@ interface ICard {
   role?: string;
   description?: string;
   stipend?: string;
-  phone?: string;
+  phoneNumber?: string;
   email?: string;
+  SkillRequired: string;
 }
 
 export const InternshipCard = (props: ICard) => {
@@ -21,7 +22,7 @@ export const InternshipCard = (props: ICard) => {
         </Typography>
         <br />
         <Typography sx={{mb: 1}} color='darkgrey'>
-          {props.phone}
+          {props.phoneNumber}
         </Typography>
         <Typography sx={{mb: 1}} color='darkgrey'>
           {props.email}

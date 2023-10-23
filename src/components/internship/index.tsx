@@ -21,8 +21,9 @@ export default function Internship() {
     role?: string;
     description?: string;
     stipend?: string;
-    phone?: string;
+    phoneNumber?: string;
     email?: string;
+    SkillRequired: string;
   }
 
   const [open, setOpen] = useState(false);
@@ -35,11 +36,23 @@ export default function Internship() {
     role: string,
     description: string,
     stipend: string,
-    phone: string,
+    phoneNumber: string,
     email: string,
+    SkillRequired: string,
   ) => {
     setCard((prevCard: ICard[]) => {
-      return [...prevCard, {id: Math.random().toString(), role, description, stipend, phone, email}];
+      return [
+        ...prevCard,
+        {
+          id: Math.random().toString(),
+          role,
+          description,
+          stipend,
+          phoneNumber,
+          email,
+          SkillRequired,
+        },
+      ];
     });
   };
 
@@ -63,8 +76,9 @@ export default function Internship() {
           role={item.role}
           description={item.description}
           stipend={item.stipend}
-          phone={item.phone}
+          phoneNumber={item.phoneNumber}
           email={item.email}
+          SkillRequired={item.SkillRequired}
         />
       ))}
       <Modal
