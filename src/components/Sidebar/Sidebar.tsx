@@ -25,12 +25,16 @@ export default function Sidebar() {
           <Toolbar />
           <Divider />
           <List>
-            {['Home', 'Alumni', 'Contribute', 'Internships'].map((text, index) => (
-              <ListItem key={text} disablePadding>
+            {['Home', 'Alumni', 'Contribute To Community App', 'Internships'].map((text, index) => (
+              <ListItem key={index} disablePadding>
                 <ListItemButton
                   LinkComponent={Link}
                   href={
-                    text.toLowerCase() === 'home' ? '/' : `/${text.toLowerCase().replace(' ', '-')}`
+                    text.toLowerCase() === 'home'
+                      ? '/'
+                      : text.toLowerCase() === 'contribute to community app'
+                      ? '/ContributeLogin'
+                      : `/${text.toLowerCase().replace(' ', '-')}`
                   }
                 >
                   <ListItemText primary={text} />
